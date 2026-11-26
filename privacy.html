@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+  :root { --bg: #fff; --fg: #1d1d1f; --muted: #5f6368; --link: #0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1e1f22; --fg: #e8eaed; --muted: #9aa0a6; --link: #8ab4f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; max-width: 46rem; margin: 0 auto; padding: 2rem 1rem; }
+  a { color: var(--link); }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: 27 November 2026 · <a href="#de">Deutsche Fassung unten</a></p>
+
+<p>This policy covers the open-source Home Assistant integrations and cards published by
+<a href="https://github.com/Schimmelreiter">Schimmelreiter</a>, in particular
+<a href="https://github.com/Schimmelreiter/ha-google-contacts">Google Contacts for Home Assistant</a>
+(OAuth app name “Home Assistant Contacts”).</p>
+
+<h2>What data is accessed</h2>
+<p>With your permission, the integration reads your Google contacts through the Google People API
+using the read-only scope <code>https://www.googleapis.com/auth/contacts.readonly</code>.
+It does not create, change or delete contacts.</p>
+
+<h2>Where the data goes</h2>
+<p>The integration runs entirely inside your own Home Assistant installation. Contact data and the
+OAuth tokens are stored only there. Nothing is sent to the developer or to any third party, and
+there is no server operated by the developer. The data is used only to show your contacts in your
+own Home Assistant instance.</p>
+
+<h2>Limited Use</h2>
+<p>The use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements. The data is not sold, not used for advertising and not
+used to train AI or machine-learning models.</p>
+
+<h2>Removing access and data</h2>
+<p>Remove the integration in Home Assistant to delete the stored contact data and tokens. You can
+revoke the access at any time in your Google account under
+<a href="https://myaccount.google.com/connections">Third-party apps &amp; services</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions: open an issue in the
+<a href="https://github.com/Schimmelreiter/ha-google-contacts/issues">GitHub repository</a>.</p>
+
+<hr>
+
+<h1 id="de">Datenschutzerklärung</h1>
+<p>Diese Erklärung gilt für die quelloffenen Home-Assistant-Integrationen und -Karten von
+<a href="https://github.com/Schimmelreiter">Schimmelreiter</a>, insbesondere für
+<a href="https://github.com/Schimmelreiter/ha-google-contacts">Google Contacts für Home Assistant</a>
+(OAuth-App „Home Assistant Contacts“).</p>
+
+<h2>Welche Daten gelesen werden</h2>
+<p>Mit Deiner Zustimmung liest die Integration Deine Google-Kontakte über die Google People API,
+nur lesend (<code>contacts.readonly</code>). Kontakte werden nicht angelegt, geändert oder gelöscht.</p>
+
+<h2>Wohin die Daten gehen</h2>
+<p>Die Integration läuft ausschließlich in Deiner eigenen Home-Assistant-Installation. Kontaktdaten
+und OAuth-Token werden nur dort gespeichert. Es wird nichts an den Entwickler oder an Dritte
+übertragen; einen Server des Entwicklers gibt es nicht.</p>
+
+<h2>Eingeschränkte Nutzung</h2>
+<p>Die Nutzung von Daten aus Google-APIs folgt der
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Richtlinie zu Nutzerdaten für Google API-Dienste</a>
+einschließlich der Anforderungen zur eingeschränkten Nutzung. Die Daten werden nicht verkauft,
+nicht für Werbung und nicht zum Training von KI-Modellen verwendet.</p>
+
+<h2>Zugriff entziehen und Daten löschen</h2>
+<p>Entfernst Du die Integration in Home Assistant, werden die gespeicherten Kontaktdaten und Token
+gelöscht. Den Zugriff kannst Du jederzeit in Deinem Google-Konto unter
+<a href="https://myaccount.google.com/connections">Drittanbieter-Apps und -Dienste</a> widerrufen.</p>
+
+<h2>Kontakt</h2>
+<p>Fragen bitte als Issue im
+<a href="https://github.com/Schimmelreiter/ha-google-contacts/issues">GitHub-Repository</a>.</p>
+</body>
+</html>
